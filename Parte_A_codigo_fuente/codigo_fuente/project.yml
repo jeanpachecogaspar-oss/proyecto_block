@@ -1,0 +1,30 @@
+project:
+  name: "Sistema de Noticias"
+  version: 1.0.0
+  description: "Descripción breve de tu sistema"
+  stack:
+    detect: true
+  academic:
+    course: "Pruebas y Calidad de Software"
+    evaluation_name: "Evaluación del Parcial"
+    partial_weight_percentage: 80
+    evaluator:
+      name: "Mg. Juan Pérez Docente"
+      email: "docente@continental.edu.pe"
+      role: "Docente Evaluador"
+    members:
+      - name: "Tu Nombre Completo"
+        code: "73855917"
+        email: "73855917@continental.edu.pe"
+```[cite: 1]
+
+5. Guarda el archivo presionando **`Ctrl` + `S`**.
+
+---
+
+### ⚠️ Reglas importantes para `project.yml`:
+* **No uses la tecla TAB:** Los archivos `.yml` solo permiten sangría con **espacios** (presiona la barra espaciadora)[cite: 1].
+* **Curso exacto:** El valor de `course` debe ser escrito tal cual: `"Pruebas y Calidad de Software"`[cite: 1].
+* **Integrantes:** Si trabajas en grupo, agrega otro bloque `- name:` debajo del tuyo con los datos de tu compañero[cite: 1].
+
+Una vez guardado `project.yml`, ya tendrás listos todos los archivos requeridos y podrás proceder a subir el proyecto con los comandos `git` a GitLab[cite: 1, 2].
